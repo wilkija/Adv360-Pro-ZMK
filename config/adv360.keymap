@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &macro_tab_left     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                              &tog 1                                                                                            &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &macro_tab_right
-         &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                         &macro_copy                                                                                      &macro_snip   &kp Y   &kp U      &kp I     &kp O     &kp P          &kp BSLH
-         &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G                        &macro_paste  &kp LEFT_SHIFT      &kp LGUI                    &kp RIGHT_GUI    &kp ESC      &macro_shft_paste   &kp H   &kp J      &kp K     &kp L  &kp SEMI           &kp SQT
-       &kp EQUAL      &kp Z     &kp X     &kp C      &kp V   &kp B                                                      &kp LEFT_ALT                    &macro_editor                                     &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH         &kp MINUS
-           &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &mt LEFT_SHIFT BACKSPACE         &kp DEL     &kp LCTRL                  &macro_terminal  &kp ENTER  &mt RIGHT_SHIFT SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT             &mo 2
+ &kp LG(LS(TAB))     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                              &tog 1                                                                                            &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp LG(TAB)
+         &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                           &kp LG(C)                                                                          &kp LG(LS(KP_NUMBER_4))   &kp Y   &kp U      &kp I     &kp O     &kp P     &kp BSLH
+         &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G                           &kp LG(V)  &kp LEFT_SHIFT      &kp LGUI                  &kp RIGHT_GUI    &kp ESC            &kp LG(LS(V))   &kp H   &kp J      &kp K     &kp L  &kp SEMI      &kp SQT
+       &kp EQUAL      &kp Z     &kp X     &kp C      &kp V   &kp B                                                      &kp LEFT_ALT                  &kp LG(LC(E))                                       &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH    &kp MINUS
+           &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &mt LEFT_SHIFT BACKSPACE         &kp DEL     &kp LCTRL                  &kp LG(LC(T))  &kp ENTER    &mt RIGHT_SHIFT SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT        &mo 2
             >;
         };
 
